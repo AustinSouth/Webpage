@@ -75,8 +75,11 @@ GEM
     nokogiri (1.12.5-x64-mingw32)
       racc (~> 1.4)
 <<<<<<< HEAD
+<<<<<<< HEAD
     nokogiri (1.12.5-x86_64-darwin)
       racc (~> 1.4)
+=======
+>>>>>>> parent of f348572 (Small edits)
     nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
 =======
@@ -114,7 +117,10 @@ GEM
 PLATFORMS
   x64-mingw32
 <<<<<<< HEAD
+<<<<<<< HEAD
   x86_64-darwin-19
+=======
+>>>>>>> parent of f348572 (Small edits)
   x86_64-linux
 =======
 >>>>>>> parent of 4c2012e (Update Gemfile.lock)
