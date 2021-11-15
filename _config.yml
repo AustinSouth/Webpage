@@ -82,7 +82,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://cdn.jsdelivr.net/gh'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: <img src="AustinSouth/Ethreal/images/pic01.jpg">
+avatar: <img src="https://cdn.jsdelivr.net/gh/AustinSouth/Ethreal/images/pic01.jpg">
 
 # boolean type, the global switch for ToC in posts.
 toc: true
