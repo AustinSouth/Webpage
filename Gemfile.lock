@@ -1,3 +1,14 @@
+PATH
+  remote: .
+  specs:
+    jekyll-theme-chirpy (4.3.3)
+      jekyll (~> 4.1)
+      jekyll-archives (~> 2.2)
+      jekyll-paginate (~> 1.1)
+      jekyll-redirect-from (~> 0.16)
+      jekyll-seo-tag (~> 2.7)
+      jekyll-sitemap (~> 1.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -10,9 +21,7 @@ GEM
       http_parser.rb (~> 0)
     ethon (0.15.0)
       ffi (>= 1.15.0)
-    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
-    ffi (1.15.4)
     ffi (1.15.4-x64-mingw32)
     forwardable-extended (2.6.0)
     html-proofer (3.19.2)
@@ -52,13 +61,6 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-theme-chirpy (4.3.3)
-      jekyll (~> 4.1)
-      jekyll-archives (~> 2.2)
-      jekyll-paginate (~> 1.1)
-      jekyll-redirect-from (~> 0.16)
-      jekyll-seo-tag (~> 2.7)
-      jekyll-sitemap (~> 1.4)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.1)
@@ -72,8 +74,16 @@ GEM
     mercenary (0.4.0)
     nokogiri (1.12.5-x64-mingw32)
       racc (~> 1.4)
+<<<<<<< HEAD
+<<<<<<< HEAD
+    nokogiri (1.12.5-x86_64-darwin)
+      racc (~> 1.4)
+=======
+>>>>>>> parent of f348572 (Small edits)
     nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
+=======
+>>>>>>> parent of 4c2012e (Update Gemfile.lock)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
     parallel (1.21.0)
@@ -88,8 +98,6 @@ GEM
     rexml (3.2.5)
     rouge (3.26.1)
     safe_yaml (1.0.5)
-    sassc (2.4.0)
-      ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
     terminal-table (2.0.0)
@@ -108,11 +116,18 @@ GEM
 
 PLATFORMS
   x64-mingw32
+<<<<<<< HEAD
+<<<<<<< HEAD
+  x86_64-darwin-19
+=======
+>>>>>>> parent of f348572 (Small edits)
   x86_64-linux
+=======
+>>>>>>> parent of 4c2012e (Update Gemfile.lock)
 
 DEPENDENCIES
   html-proofer (~> 3.18)
-  jekyll-theme-chirpy (~> 4.3, >= 4.3.3)
+  jekyll-theme-chirpy!
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
